@@ -8,31 +8,21 @@
 
 import UIKit
 
-class BusinessesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class BusinessesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
+    @IBOutlet weak var mySearchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
+    
     var businesses: [Business]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        mySearchBar.delegate = self
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 120
-        Business.searchWithTerm(term: "Thai", completion: { (businesses: [Business]?, error: Error?) -> Void in
-            
-            self.businesses = businesses
-            self.tableView.reloadData()
-            if let businesses = businesses {
-                for business in businesses {
-                    print(business.name!)
-                    print(business.address!)
-                }
-            }
-            
-            }
-        )
-        
+        search(userQuery: "Thai")
         /* Example of Yelp search with more search options specified
          Business.searchWithTerm("Restaurants", sort: .distance, categories: ["asianfusion", "burgers"], deals: true) { (businesses: [Business]!, error: Error!) -> Void in
          self.businesses = businesses
@@ -43,6 +33,32 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
          }
          }
          */
+        
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        let userQuery = mySearchBar.text
+        search(userQuery: userQuery!)
+    }
+    
+    func search(userQuery: String) {
+        Business.searchWithTerm(term: userQuery, completion: { (businesses: [Business]?, error: Error?) -> Void in
+            
+            self.businesses = businesses
+            self.tableView.reloadData()
+            if let businesses = businesses {
+                for business in businesses {
+                    print(business.name!)
+                    //print(business.address!)
+                }
+            }
+            
+        }
+        )
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar)  {
+        mySearchBar.resignFirstResponder()
         
     }
     

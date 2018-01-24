@@ -25,9 +25,14 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="140" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ufK-EA-qCN">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <searchBar key="tableHeaderView" contentMode="redraw" id="ONq-wg-qic">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </searchBar>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BusinessCell" rowHeight="140" id="H4B-PY-uR1" customClass="Business_Cell" customModule="Yelp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="140"/>
+                                        <rect key="frame" x="0.0" y="72" width="375" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H4B-PY-uR1" id="WAd-St-iMc">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
@@ -126,13 +131,18 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ufK-EA-qCN" secondAttribute="trailing" id="2he-lf-v5G"/>
+                            <constraint firstAttribute="trailing" secondItem="ufK-EA-qCN" secondAttribute="trailing" id="5KP-dJ-tBF"/>
                             <constraint firstItem="ufK-EA-qCN" firstAttribute="top" secondItem="XhR-oz-92f" secondAttribute="top" id="Hu4-KR-xZG"/>
+                            <constraint firstItem="VBY-gq-v8E" firstAttribute="top" secondItem="ufK-EA-qCN" secondAttribute="bottom" id="LOB-q5-zJJ"/>
+                            <constraint firstItem="ufK-EA-qCN" firstAttribute="top" secondItem="XhR-oz-92f" secondAttribute="top" id="Vku-kn-Dnj"/>
                             <constraint firstItem="ufK-EA-qCN" firstAttribute="leading" secondItem="XhR-oz-92f" secondAttribute="leading" id="YgV-z3-q4l"/>
+                            <constraint firstItem="ufK-EA-qCN" firstAttribute="leading" secondItem="XhR-oz-92f" secondAttribute="leading" id="Zr1-db-UqG"/>
                             <constraint firstItem="VBY-gq-v8E" firstAttribute="top" secondItem="ufK-EA-qCN" secondAttribute="bottom" id="f84-sN-7Du"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Yelp" id="82X-xO-wdD"/>
                     <connections>
+                        <outlet property="mySearchBar" destination="ONq-wg-qic" id="FaW-KE-qk8"/>
                         <outlet property="tableView" destination="ufK-EA-qCN" id="mPA-eQ-EVs"/>
                     </connections>
                 </viewController>
