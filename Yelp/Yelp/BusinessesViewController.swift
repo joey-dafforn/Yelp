@@ -8,11 +8,12 @@
 
 import UIKit
 
-class BusinessesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
+class BusinessesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate, UIScrollViewDelegate {
     
     @IBOutlet weak var mySearchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
     
+    var isMoreDataLoading = false
     var businesses: [Business]!
     
     override func viewDidLoad() {
@@ -34,6 +35,45 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
          }
          */
         
+    }
+    
+    /*func loadMoreData() {
+        
+        // ... Create the NSURLRequest (myRequest) ...
+        
+        // Configure session so that completion handler is executed on main UI thread
+        let session = URLSession(configuration: URLSessionConfiguration.default,
+                                 delegate:nil,
+                                 delegateQueue:OperationQueue.main
+        )
+        let task : URLSessionDataTask = session.dataTask(with: myRequest, completionHandler: { (data, response, error) in
+            
+            // Update flag
+            self.isMoreDataLoading = false
+            
+            // ... Use the new data to update the data source ...
+            
+            // Reload the tableView now that there is new data
+            self.myTableView.reloadData()
+        })
+        task.resume()
+    }*/
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if (!isMoreDataLoading) {
+            // Calculate the position of one screen length before the bottom of the results
+            let scrollViewContentHeight = tableView.contentSize.height
+            let scrollOffsetThreshold = scrollViewContentHeight - tableView.bounds.size.height
+            
+            // When the user has scrolled past the threshold, start requesting
+            if(scrollView.contentOffset.y > scrollOffsetThreshold && tableView.isDragging) {
+                
+                isMoreDataLoading = true
+                
+                // Code to load more results
+                //loadMoreData()
+            }
+        }
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
