@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DF170D03851DCDCDE8981DD /* Pods_FortniteAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6275DE40CCBD955F01EB01 /* Pods_FortniteAPI.framework */; };
+		7428A7FD76EF4A2917E47C83 /* Pods_FortniteAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B5FB2A7475B8870DC5A666 /* Pods_FortniteAPITests.framework */; };
+		B8828ECAB3CDA67669E2B1BC /* Pods_FortniteAPIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB366B5EF3FCF32148DFD5DF /* Pods_FortniteAPIUITests.framework */; };
+		D8650CDB2019550700604685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650CDA2019550700604685 /* AppDelegate.swift */; };
+		D8650CDD2019550700604685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650CDC2019550700604685 /* ViewController.swift */; };
+		D8650CE02019550700604685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8650CDE2019550700604685 /* Main.storyboard */; };
+		D8650CE22019550700604685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8650CE12019550700604685 /* Assets.xcassets */; };
+		D8650CE52019550700604685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8650CE32019550700604685 /* LaunchScreen.storyboard */; };
+		D8650CF02019550700604685 /* FortniteAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650CEF2019550700604685 /* FortniteAPITests.swift */; };
+		D8650CFB2019550700604685 /* FortniteAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650CFA2019550700604685 /* FortniteAPIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8650CEC2019550700604685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8650CCF2019550700604685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8650CD62019550700604685;
+			remoteInfo = FortniteAPI;
+		};
+		D8650CF72019550700604685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8650CCF2019550700604685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8650CD62019550700604685;
+			remoteInfo = FortniteAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		148B917633367A2B99AA062A /* Pods-FortniteAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteAPI/Pods-FortniteAPI.release.xcconfig"; sourceTree = "<group>"; };
+		47016CDB88EB7DBBC9C2337B /* Pods-FortniteAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteAPI/Pods-FortniteAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		4F01D9F7680FE1FE0380D11E /* Pods-FortniteAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteAPIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteAPIUITests/Pods-FortniteAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5357BF490645CA90CD1A371A /* Pods-FortniteAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteAPITests/Pods-FortniteAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7306DE0C5BE6C16163F6C6DC /* Pods-FortniteAPIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteAPIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteAPIUITests/Pods-FortniteAPIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FFBE1E8249640DB4AC2E3C7 /* Pods-FortniteAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteAPITests/Pods-FortniteAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB366B5EF3FCF32148DFD5DF /* Pods_FortniteAPIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortniteAPIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8650CD72019550700604685 /* FortniteAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortniteAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8650CDA2019550700604685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8650CDC2019550700604685 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8650CDF2019550700604685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8650CE12019550700604685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8650CE42019550700604685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8650CE62019550700604685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8650CEB2019550700604685 /* FortniteAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortniteAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8650CEF2019550700604685 /* FortniteAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortniteAPITests.swift; sourceTree = "<group>"; };
+		D8650CF12019550700604685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8650CF62019550700604685 /* FortniteAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortniteAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8650CFA2019550700604685 /* FortniteAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortniteAPIUITests.swift; sourceTree = "<group>"; };
+		D8650CFC2019550700604685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6275DE40CCBD955F01EB01 /* Pods_FortniteAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortniteAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B5FB2A7475B8870DC5A666 /* Pods_FortniteAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortniteAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8650CD42019550700604685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF170D03851DCDCDE8981DD /* Pods_FortniteAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650CE82019550700604685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7428A7FD76EF4A2917E47C83 /* Pods_FortniteAPITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650CF32019550700604685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8828ECAB3CDA67669E2B1BC /* Pods_FortniteAPIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A1AED20BA4924BD89710F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE6275DE40CCBD955F01EB01 /* Pods_FortniteAPI.framework */,
+				E3B5FB2A7475B8870DC5A666 /* Pods_FortniteAPITests.framework */,
+				BB366B5EF3FCF32148DFD5DF /* Pods_FortniteAPIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A705DA0B711C6644BCFE07EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47016CDB88EB7DBBC9C2337B /* Pods-FortniteAPI.debug.xcconfig */,
+				148B917633367A2B99AA062A /* Pods-FortniteAPI.release.xcconfig */,
+				5357BF490645CA90CD1A371A /* Pods-FortniteAPITests.debug.xcconfig */,
+				8FFBE1E8249640DB4AC2E3C7 /* Pods-FortniteAPITests.release.xcconfig */,
+				7306DE0C5BE6C16163F6C6DC /* Pods-FortniteAPIUITests.debug.xcconfig */,
+				4F01D9F7680FE1FE0380D11E /* Pods-FortniteAPIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8650CCE2019550700604685 = {
+			isa = PBXGroup;
+			children = (
+				D8650CD92019550700604685 /* FortniteAPI */,
+				D8650CEE2019550700604685 /* FortniteAPITests */,
+				D8650CF92019550700604685 /* FortniteAPIUITests */,
+				D8650CD82019550700604685 /* Products */,
+				A705DA0B711C6644BCFE07EC /* Pods */,
+				07A1AED20BA4924BD89710F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8650CD82019550700604685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8650CD72019550700604685 /* FortniteAPI.app */,
+				D8650CEB2019550700604685 /* FortniteAPITests.xctest */,
+				D8650CF62019550700604685 /* FortniteAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8650CD92019550700604685 /* FortniteAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D8650CDA2019550700604685 /* AppDelegate.swift */,
+				D8650CDC2019550700604685 /* ViewController.swift */,
+				D8650CDE2019550700604685 /* Main.storyboard */,
+				D8650CE32019550700604685 /* LaunchScreen.storyboard */,
+				D8650CE12019550700604685 /* Assets.xcassets */,
+				D8650CE62019550700604685 /* Info.plist */,
+			);
+			path = FortniteAPI;
+			sourceTree = "<group>";
+		};
+		D8650CEE2019550700604685 /* FortniteAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8650CEF2019550700604685 /* FortniteAPITests.swift */,
+				D8650CF12019550700604685 /* Info.plist */,
+			);
+			path = FortniteAPITests;
+			sourceTree = "<group>";
+		};
+		D8650CF92019550700604685 /* FortniteAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8650CFA2019550700604685 /* FortniteAPIUITests.swift */,
+				D8650CFC2019550700604685 /* Info.plist */,
+			);
+			path = FortniteAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8650CD62019550700604685 /* FortniteAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8650CFF2019550700604685 /* Build configuration list for PBXNativeTarget "FortniteAPI" */;
+			buildPhases = (
+				0398910F5909967F652692BF /* [CP] Check Pods Manifest.lock */,
+				D8650CD32019550700604685 /* Sources */,
+				D8650CD42019550700604685 /* Frameworks */,
+				D8650CD52019550700604685 /* Resources */,
+				3A116BEA2E9213A4BD84F319 /* [CP] Embed Pods Frameworks */,
+				7200969E6AFBA03907597D17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortniteAPI;
+			productName = FortniteAPI;
+			productReference = D8650CD72019550700604685 /* FortniteAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8650CEA2019550700604685 /* FortniteAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8650D022019550700604685 /* Build configuration list for PBXNativeTarget "FortniteAPITests" */;
+			buildPhases = (
+				4E4436466817F0DE7D3B6909 /* [CP] Check Pods Manifest.lock */,
+				D8650CE72019550700604685 /* Sources */,
+				D8650CE82019550700604685 /* Frameworks */,
+				D8650CE92019550700604685 /* Resources */,
+				1BB4E4728EB0C1A05B42B4D6 /* [CP] Embed Pods Frameworks */,
+				8E9A7FABB69473BCBED91A6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8650CED2019550700604685 /* PBXTargetDependency */,
+			);
+			name = FortniteAPITests;
+			productName = FortniteAPITests;
+			productReference = D8650CEB2019550700604685 /* FortniteAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8650CF52019550700604685 /* FortniteAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8650D052019550700604685 /* Build configuration list for PBXNativeTarget "FortniteAPIUITests" */;
+			buildPhases = (
+				C5E2FB2A04849194781B5F61 /* [CP] Check Pods Manifest.lock */,
+				D8650CF22019550700604685 /* Sources */,
+				D8650CF32019550700604685 /* Frameworks */,
+				D8650CF42019550700604685 /* Resources */,
+				355FD8B9826F2CCF682AC7DE /* [CP] Embed Pods Frameworks */,
+				0AC8392668FBE42D1392E454 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8650CF82019550700604685 /* PBXTargetDependency */,
+			);
+			name = FortniteAPIUITests;
+			productName = FortniteAPIUITests;
+			productReference = D8650CF62019550700604685 /* FortniteAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8650CCF2019550700604685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Joseph Davey";
+				TargetAttributes = {
+					D8650CD62019550700604685 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D8650CEA2019550700604685 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8650CD62019550700604685;
+					};
+					D8650CF52019550700604685 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8650CD62019550700604685;
+					};
+				};
+			};
+			buildConfigurationList = D8650CD22019550700604685 /* Build configuration list for PBXProject "FortniteAPI" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8650CCE2019550700604685;
+			productRefGroup = D8650CD82019550700604685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8650CD62019550700604685 /* FortniteAPI */,
+				D8650CEA2019550700604685 /* FortniteAPITests */,
+				D8650CF52019550700604685 /* FortniteAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8650CD52019550700604685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650CE52019550700604685 /* LaunchScreen.storyboard in Resources */,
+				D8650CE22019550700604685 /* Assets.xcassets in Resources */,
+				D8650CE02019550700604685 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650CE92019550700604685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650CF42019550700604685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0398910F5909967F652692BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortniteAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AC8392668FBE42D1392E454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortniteAPIUITests/Pods-FortniteAPIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BB4E4728EB0C1A05B42B4D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortniteAPITests/Pods-FortniteAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		355FD8B9826F2CCF682AC7DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortniteAPIUITests/Pods-FortniteAPIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A116BEA2E9213A4BD84F319 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FortniteAPI/Pods-FortniteAPI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortniteAPI/Pods-FortniteAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4436466817F0DE7D3B6909 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortniteAPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7200969E6AFBA03907597D17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortniteAPI/Pods-FortniteAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E9A7FABB69473BCBED91A6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortniteAPITests/Pods-FortniteAPITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E2FB2A04849194781B5F61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortniteAPIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8650CD32019550700604685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650CDD2019550700604685 /* ViewController.swift in Sources */,
+				D8650CDB2019550700604685 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650CE72019550700604685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650CF02019550700604685 /* FortniteAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650CF22019550700604685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650CFB2019550700604685 /* FortniteAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8650CED2019550700604685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8650CD62019550700604685 /* FortniteAPI */;
+			targetProxy = D8650CEC2019550700604685 /* PBXContainerItemProxy */;
+		};
+		D8650CF82019550700604685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8650CD62019550700604685 /* FortniteAPI */;
+			targetProxy = D8650CF72019550700604685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8650CDE2019550700604685 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8650CDF2019550700604685 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8650CE32019550700604685 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8650CE42019550700604685 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8650CFD2019550700604685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8650CFE2019550700604685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8650D002019550700604685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47016CDB88EB7DBBC9C2337B /* Pods-FortniteAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortniteAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joe.FortniteAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8650D012019550700604685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148B917633367A2B99AA062A /* Pods-FortniteAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortniteAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joe.FortniteAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8650D032019550700604685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5357BF490645CA90CD1A371A /* Pods-FortniteAPITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortniteAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joe.FortniteAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortniteAPI.app/FortniteAPI";
+			};
+			name = Debug;
+		};
+		D8650D042019550700604685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFBE1E8249640DB4AC2E3C7 /* Pods-FortniteAPITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortniteAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joe.FortniteAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortniteAPI.app/FortniteAPI";
+			};
+			name = Release;
+		};
+		D8650D062019550700604685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7306DE0C5BE6C16163F6C6DC /* Pods-FortniteAPIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortniteAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joe.FortniteAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FortniteAPI;
+			};
+			name = Debug;
+		};
+		D8650D072019550700604685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F01D9F7680FE1FE0380D11E /* Pods-FortniteAPIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortniteAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joe.FortniteAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FortniteAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8650CD22019550700604685 /* Build configuration list for PBXProject "FortniteAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8650CFD2019550700604685 /* Debug */,
+				D8650CFE2019550700604685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8650CFF2019550700604685 /* Build configuration list for PBXNativeTarget "FortniteAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8650D002019550700604685 /* Debug */,
+				D8650D012019550700604685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8650D022019550700604685 /* Build configuration list for PBXNativeTarget "FortniteAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8650D032019550700604685 /* Debug */,
+				D8650D042019550700604685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8650D052019550700604685 /* Build configuration list for PBXNativeTarget "FortniteAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8650D062019550700604685 /* Debug */,
+				D8650D072019550700604685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8650CCF2019550700604685 /* Project object */;
+}
